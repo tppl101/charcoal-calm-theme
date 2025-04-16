@@ -32,3 +32,46 @@ Once published to MELPA:
 
 ```elisp
 M-x package-install RET charcoal-calm-theme RET
+
+Then, enable the theme:
+
+```elisp
+(load-theme 'charcoal-calm t)
+
+### Manual Installation
+
+Clone this repository into your Emacs config directory:
+
+```sh
+git clone https://github.com/yourusername/charcoal-calm-theme ~/.emacs.d/themes/charcoal-calm-theme
+
+Add this to your config:
+
+```elisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/charcoal-calm-theme")
+(load-theme 'charcoal-calm t)
+
+## Screenshots
+
+### Customization
+
+You can override specific face attributes in your config if you'd like to tweak contrast or accent tones:
+```elisp
+(custom-set-faces
+ '(mode-line ((t (:background "#3B4252" :foreground "#E5E9F0")))))
+
+### Contributing
+
+Suggestions, bug reports, and contributions are welcome! Feel free to open an issue or PR.
+
+### License
+
+MIT
+
+Made with ❤️ for focused, comfortable hacking.
+
+```yaml
+
+---
+
+Let me know if you'd like a matching `screenshot.png` mockup to go with this or want help setting up the `melpa` metadata like `charcoal-calm-theme.el` headers or `charcoal-calm-theme-pkg.el`.
