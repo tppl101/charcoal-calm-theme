@@ -45,7 +45,7 @@ Then, enable the theme:
 Clone this repository into your Emacs config directory:
 
 ```sh
-git clone https://github.com/yourusername/charcoal-calm-theme ~/.emacs.d/themes/charcoal-calm-theme
+git clone https://github.com/tppl101/charcoal-calm-theme ~/.emacs.d/themes/charcoal-calm-theme
 ```
 
 Add this to your config:
