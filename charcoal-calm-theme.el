@@ -1,4 +1,18 @@
 ;;; charcoal-calm-theme.el --- A soft dark theme with warm purples -*- lexical-binding: t; -*-
+;; Author: D. Bezerra
+;; URL: https://github.com/tppl101/charcoal-calm-theme
+;; Version: 0.1
+;; Package-Requires: ((emacs "24.1"))
+;; Keywords: faces theme
+;; License: MIT
+
+;;; Commentary:
+
+;; charcoal-calm is a soft dark theme for Emacs with warm purples,
+;; calming greens, and low-contrast background designed for long,
+;; comfortable editing sessions.
+
+;;; Code:
 
 (deftheme charcoal-calm
   "A soft dark theme based on #2A2F38 and muted tones for eye comfort.")
