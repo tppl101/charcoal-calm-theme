@@ -1,5 +1,5 @@
 ;;; charcoal-calm-theme.el --- A soft dark theme with warm purples -*- lexical-binding: t; -*-
-;; Author: D. Bezerra
+;; Author: D. Bezerra <...@mail.com>
 ;; URL: https://github.com/tppl101/charcoal-calm-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
