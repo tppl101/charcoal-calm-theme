@@ -55,6 +55,8 @@
    `(link ((,class (:foreground ,type :underline t))))
    `(shadow ((,class (:foreground "#666666"))))
    `(match ((,class (:background ,region :foreground ,fg :weight bold))))
+   `(popup-tip-face ((,class (:background ,highlight :foreground ,fg))))
+   `(tooltip ((,class (:background ,highlight :foreground ,fg))))
 
    ;; Line Numbers
    `(line-number ((,class (:inherit default :foreground "#555555" :background ,bg))))
